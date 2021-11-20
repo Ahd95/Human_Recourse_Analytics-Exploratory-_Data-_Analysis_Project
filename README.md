@@ -1,34 +1,38 @@
-# Human_Recourse_Analytics-Exploratory-_Data-_Analysis_Project
+# Movies_Streaming_Platform-Exploratory-_Data-_Analysis_Project
 # Overview:
-This dataset designed to understand the factors that lead a person to leave current job for HR researches too. By model(s) that uses the current credentials,demographics,experience data I  will predict the probability of a candidate to look for a new job or will work for the company.
-Helping the company and employee to reach maximum productivity by hiring them in the right position. In other hand, I will investigate why some employee doesn’t get their promotion.
-Data used in this project was taken from Kaggle website.
+Movies streaming services becoming increasingly popular, in this EDA project, We are searching for the most impressive movie library of any on-demand streaming service, with a wider range of new and classic content.
+The objective is to make a comparison and, suggest striges lead to improvement.  After asking the right questions we ready to get started. This bring us the next step which is data collection our data is collected from Kaggle website. After that,  Cleaning data this is a vital step because ultimately, the accuracy of your analysis will depend on the quality of your data.
+Finally, Visualizing data & interrupting result.
+
 # Question/Problem statement:
-My dataset includes analysis about employees of certain company. In my EDA project I aim to figure out:
-Why some employee doesn’t get promotion?
-What is the fit role or position for the employee?
-Does the promotion relate with the training course?
+What’s the high rated movies ? 
+What’s the longest and the shortest runtime ?
+Which Country has the highest content ? 
+Which Age Category has the highest content?
+
 # Data Description:
  * Data type: Integer, Float, Object
- * Rows: 48660 Rows
+ * Rows: 9515 Rows
  * Data size [48660 rows x 13 columns]
 
-|#|Column|Count|Data Type
-|:-:|:------:|:---:|:-------:|
-0|Employee Id|48660|Int64|
-1|Department|48660|Object|
-2|Region|48660|Object|
-3|Education|48660|Object|
-4|Gender|48660|Object|
-5|Recruitment Channel|48660|Object|
-6|No of Training|48660|Int64|
-7|Age|48660|Int64|
-8|Previous Year Rating|48660|Float64
-9|Length of Service|48660|Int64|
-10|KPIs Met > 80%|48660|Int64|
-11|Award Won|48660|Int64|
-12|Average Training Course|48660|Int64|
-13|Is promoted|48660|Int64|
+  |Column          |Count    |Data Type | 
+  |:--------------:|:-------:|:--------:|
+0 |ID              |9515     |Int64     |   
+1 |Title           |9515     |Object    |
+2 |Year            |9515     |Int64     |
+3 |Age             |5338     |Object    |
+4 |IMDb            |9309     |Object    |
+5 |Rotten Tomatoes |9508     |Object    |
+6 |Netflix         |9515     |Int64     |
+7 |Hulu            |9515     |Int64     |
+8 |Prime Video     |9515     |Int64     |
+9 |Disney+         |9515     |Int64     |
+10|Type            |9515     |Int64     |
+11|Directors       |9104     |Object    |
+12|Generes         |9399     |Object    |
+13|Country         |9261     |Object    |
+14|Language        |9202     |Object    |
+15|Runtime         |9196     |Float64   |
 
 # Tools:
 * Programs: Jupyter notebook
@@ -37,4 +41,6 @@ Does the promotion relate with the training course?
 * Plots: heatmap , histogram , pie feature
 
 # MVP Goal:
-* The goal of this project is to find the match position with the right employee to improve productivity of the company as well as the employee.
+* Companies need to adopt excellent strategies to reach more customers & compete in the market. The strategy behind Amazon is to offer so many deals that would encourage more users to use their services. 
+After careful analysis of the data, we decide to suggest ideas based on the data so Netflix can have a competitive advantage to use against others in the market. 
+
