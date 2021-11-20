@@ -5,15 +5,15 @@ The objective is to make a comparison and, suggest striges lead to improvement. 
 Finally, Visualizing data & interrupting result.
 
 # Question/Problem statement:
-What’s the high rated movies ? 
-What’s the longest and the shortest runtime ?
-Which Country has the highest content ? 
-Which Age Category has the highest content?
+* What’s the high rated movies ? 
+* What’s the longest and the shortest runtime ?
+* Which Country has the highest content ? 
+* Which Age Category has the highest content?
 
 # Data Description:
  * Data type: Integer, Float, Object
  * Rows: 9515 Rows
- * Data size [48660 rows x 13 columns]
+ * Data size [9515 rows x 16 columns]
 
   |Column          |Count    |Data Type | 
   |:--------------:|:-------:|:--------:|
@@ -37,8 +37,8 @@ Which Age Category has the highest content?
 # Tools:
 * Programs: Jupyter notebook
 * Libraries: Pandas, Seaborn, NumPy, Matplotlib.
-* Functions:  Lamda , Index , Count , Group by
-* Plots: heatmap , histogram , pie feature
+* Functions:  Lamda , Index , Count , Group by , dictionarie 
+* Plots: heatmap , histogram , world cloud 
 
 # MVP Goal:
 * Companies need to adopt excellent strategies to reach more customers & compete in the market. The strategy behind Amazon is to offer so many deals that would encourage more users to use their services. 
