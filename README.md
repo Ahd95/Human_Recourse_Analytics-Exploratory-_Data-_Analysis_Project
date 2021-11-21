@@ -32,6 +32,24 @@ The objective is to make a comparison and, suggest striges lead to improvement.
 13|Country         |9261     |Object    
 14|Language        |9202     |Object    
 15|Runtime         |9196     |Float64   
+# Data Description:
+|Features |Descriotion|Type
+|:-------:|:-------------:|:-------:|
+ID|Unique movie ID|object
+Title|Title of Movie or Show|object
+Year|The year in which the movie was produced|int
+Age|Target age group|object
+Director|Director of Movie|object
+IMDb|IMDb rating|float64
+Type|Movie or Tv Show|object
+Rotten Tomatoes|Rotten Tomatoes %|int
+Disney+|hether the movie is found on Disney|object
+Netflix|Whether the movie is found on Netflix|object
+Prime Video|Whether the movie is found on Prime Video|object|
+Hulu|Whether the movie is found on Hulu|object
+Genres|Type of Movie|object
+Countr|producing country|object
+Run Time|Movie Duration|float64
 
 # Tools:
 ### Libraries:
