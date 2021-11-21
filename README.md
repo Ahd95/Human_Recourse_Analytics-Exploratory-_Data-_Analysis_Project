@@ -1,8 +1,7 @@
 # Movies_Streaming_Platform-Exploratory-_Data-_Analysis_Project
 # Overview:
 Movies streaming services becoming increasingly popular, in this EDA project, We are searching for the most impressive movie library of any on-demand streaming service, with a wider range of new and classic content.
-The objective is to make a comparison and, suggest striges lead to improvement.  After asking the right questions we ready to get started. This bring us the next step which is data collection our data is collected from Kaggle website. After that,  Cleaning data this is a vital step because ultimately, the accuracy of your analysis will depend on the quality of your data.
-Finally, Visualizing data & interrupting result.
+The objective is to make a comparison and, suggest striges lead to improvement. 
 
 # Question/Problem statement:
 * What’s the high rated movies ? 
@@ -35,12 +34,13 @@ Finally, Visualizing data & interrupting result.
 15|Runtime         |9196     |Float64   |
 
 # Tools:
-* Programs: Jupyter notebook
-* Libraries: Pandas, Seaborn, NumPy, Matplotlib.
-* Functions:  Lamda , Index , Count , Group by , dictionarie 
-* Plots: heatmap , histogram , world cloud 
+### Libraries:
+Pandas, Seaborn, NumPy, Matplotlib.
+### Functions: 
+Lamda , Index , Count , Group by , dictionarie 
+### Plots:
+heatmap , histogram , world cloud  
+### Programs: 
+Jupyter notebook (python)
 
-# MVP Goal:
-* Companies need to adopt excellent strategies to reach more customers & compete in the market. The strategy behind Amazon is to offer so many deals that would encourage more users to use their services. 
-After careful analysis of the data, we decide to suggest ideas based on the data so Netflix can have a competitive advantage to use against others in the market. 
 
